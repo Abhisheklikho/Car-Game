@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(55, 255, 55);
+}
+.hide {
+    display: none;
+  }
+  .car , .enemy {
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 50px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    background-image: url(car2.png);
+    border-radius: 20px;
+  }
+  .car{
+    box-shadow: 0px 0px 25px 0 rgb(255, 253, 253), 0px -16px 20px 0 rgba(255, 255, 255, 0.896);
+  }
+  .gameArea {
+    background-color: black;
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    left: 37%;
+    box-shadow: 0 4px 8px 0 rgba(48, 57, 46, 0.2), 0 6px 20px 0 rgba(55, 120, 46, 0.19);
+  }
+  .line {
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    margin-left: 195px;
+    background-color: white;
+  }
+  .score {
+    background-color: black;
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: fantasy;
+  }
+  .startScreen {
+    /* font-size: large; */
+    text-align: center;
+    padding: 15px;
+    /* margin: auto; */
+    /* width: 600px; */
+    margin-left: 491px;
+    width: 370px;
+    background-color: brown;
+    color: white;
+
+   
+  }
+  .startScreen:hover{
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 490px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
